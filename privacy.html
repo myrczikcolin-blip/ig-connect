@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy: Convergence Analytics</title>
+<style>
+  :root { --bg:#f6f4ef; --card:#ffffff; --ink:#1c1b19; --muted:#6b675f; --line:#e3dfd6; --accent:#1f5f4a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#151412; --card:#1f1e1b; --ink:#f1eee8; --muted:#a39e93; --line:#33312c; --accent:#6fc3a3; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:20px; background:var(--bg); color:var(--ink);
+         font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:680px; margin:0 auto; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:28px 24px; }
+  .brand { font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:0 0 18px; }
+  .brand a { color:inherit; text-decoration:none; }
+  h1 { font-size:26px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:18px; margin:28px 0 8px; }
+  p, li { color:var(--muted); }
+  p { margin:0 0 12px; }
+  ul { margin:0 0 12px; padding-left:20px; }
+  li { margin:0 0 6px; }
+  strong { color:var(--ink); }
+  a { color:var(--accent); }
+  .foot { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:28px; padding-top:16px; border-top:1px solid var(--line); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand"><a href="./">Convergence Analytics</a></p>
+  <h1>Privacy policy</h1>
+  <p>Last updated: November 11, 2026</p>
+
+  <p>Convergence Analytics ("the app") is operated by <strong>[[BUSINESS_NAME]]</strong> ("we", "us"). The app is a private tool for clients of our coaching program. It copies a client's Instagram post statistics into that client's coaching dashboard. This policy explains what the app collects through Meta's Instagram API, what we do with it, and how to have it deleted.</p>
+
+  <h2>Who this applies to</h2>
+  <p>Only people who are sent a connect link by their coach and who approve access on Meta's permission screen. If you never approved access, the app has no data about you.</p>
+
+  <h2>What we collect from Instagram</h2>
+  <p>With your approval, the app reads the following from the one Instagram professional account you select:</p>
+  <ul>
+    <li><strong>Account details:</strong> your Instagram username and account ID.</li>
+    <li><strong>Your posts:</strong> caption, post date, format, link, thumbnail and the video file itself.</li>
+    <li><strong>Post statistics (insights):</strong> views, reach, likes, comments count, saves, shares, total interactions, follows, profile visits, average and total watch time, and skip rate.</li>
+  </ul>
+  <p>The Meta permissions used are <strong>instagram_basic</strong> (profile and posts) and <strong>instagram_manage_insights</strong> (post statistics). Meta also gives us an access token, which is the key that lets the app keep reading this data until you remove access.</p>
+
+  <h2>What we do not collect</h2>
+  <ul>
+    <li>Your Instagram or Facebook password. You sign in on Meta's own pages.</li>
+    <li>Your direct messages, or the text of comments on your posts.</li>
+    <li>Information about your followers as individuals.</li>
+    <li>Anything from ad accounts or Facebook Pages.</li>
+  </ul>
+  <p>The app is read-only. It cannot post, comment, message, or change anything on your account.</p>
+
+  <h2>How we use it</h2>
+  <ul>
+    <li>To fill your coaching dashboard with a row for each post and its statistics, refreshed about once a day.</li>
+    <li>To analyze your videos so you can see what makes them work: video length, the on-screen text in the first seconds, and a written transcript of what is said.</li>
+    <li>To label posts by hook style and topic, and to give you coaching feedback based on the results.</li>
+  </ul>
+  <p>We do not sell your data, use it for advertising, or use it for any purpose other than providing this analytics service to you and your coach.</p>
+
+  <h2>How videos are analyzed</h2>
+  <p>To measure a video, the app downloads it to a temporary computer, reads its length, on-screen text and speech using software that runs on that computer, saves the results, and deletes the video file immediately afterwards. We do not keep copies of your videos.</p>
+
+  <h2>Where it is stored and who can see it</h2>
+  <ul>
+    <li><strong>Your dashboard</strong> is a Notion database. It is visible to you and to your coaches at [[BUSINESS_NAME]]. It is not public and is not shown to other clients.</li>
+    <li><strong>Your access token</strong> is stored as an encrypted secret in our private GitHub account. It is never displayed, emailed or shared.</li>
+  </ul>
+  <p>We use these service providers to run the app. They process data only on our behalf:</p>
+  <ul>
+    <li><strong>Notion Labs, Inc.</strong>: hosts the dashboard.</li>
+    <li><strong>GitHub, Inc.</strong>: runs the daily sync and stores the encrypted access token.</li>
+    <li><strong>Anthropic, PBC (Claude):</strong> an AI assistant we use to help label posts and maintain the system. It may process post captions, transcripts and statistics.</li>
+  </ul>
+  <p>We do not share your data with anyone else, unless the law requires it.</p>
+
+  <h2>How long we keep it</h2>
+  <p>We keep your data for as long as you are a client and the app is connected. When you leave the program or ask us to delete it, we delete your dashboard data and your access token within [[DELETION_DAYS]] days.</p>
+
+  <h2>How to remove access or delete your data</h2>
+  <ul>
+    <li><strong>Remove access yourself:</strong> in Meta Business Suite, open Settings, then Integrations, then Connected apps, choose Convergence Analytics and remove it. The app can no longer read your account from that moment.</li>
+    <li><strong>Ask us to delete what we hold:</strong> email <a href="mailto:[[CONTACT_EMAIL]]">[[CONTACT_EMAIL]]</a> from an address we can match to you, or message your coach. Full steps are on the <a href="data-deletion.html">data deletion page</a>.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <p>You can ask for a copy of the data we hold about your account, ask us to correct it, or ask us to delete it, at any time, using the contact below. Connecting the app is optional; you can stay in the coaching program without it.</p>
+
+  <h2>Children</h2>
+  <p>The app is for adult business owners. We do not knowingly connect accounts belonging to anyone under 18.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If we change what the app collects or how it is used, we will update this page and the date above, and tell connected clients before the change takes effect.</p>
+
+  <h2>Contact</h2>
+  <p>[[BUSINESS_NAME]]<br>[[BUSINESS_ADDRESS]]<br><a href="mailto:[[CONTACT_EMAIL]]">[[CONTACT_EMAIL]]</a></p>
+
+  <nav class="foot" aria-label="Site">
+    <a href="./">Home</a>
+    <a href="data-deletion.html">Delete my data</a>
+  </nav>
+</main>
+</body>
+</html>

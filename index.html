@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <meta name="referrer" content="no-referrer">
-<title>Convergence Analytics: connect Instagram</title>
+<title>Convergence Analytics: Instagram analytics for coaching clients</title>
 <style>
   :root { --bg:#f6f4ef; --card:#ffffff; --ink:#1c1b19; --muted:#6b675f; --line:#e3dfd6; --accent:#1f5f4a; --accent-ink:#ffffff; --warn:#9a3b1e; }
   @media (prefers-color-scheme: dark) {
@@ -27,6 +27,11 @@
   button:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
   .note { font-size:14px; margin:18px 0 0; }
   .warn h1 { color:var(--warn); }
+  h2 { font-size:16px; margin:22px 0 8px; }
+  ol, ul { margin:0 0 14px; padding-left:20px; color:var(--muted); }
+  li { margin:0 0 6px; }
+  a { color:var(--accent); }
+  .foot { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:24px; padding-top:16px; border-top:1px solid var(--line); font-size:14px; }
   [hidden] { display:none !important; }
 </style>
 </head>
@@ -51,9 +56,33 @@
   </section>
 
   <section id="empty" hidden>
-    <h1>Nothing to do here yet</h1>
-    <p>This page shows a one-time code after you approve Instagram access. Open the link your coach sent you to start.</p>
+    <h1>Instagram analytics for coaching clients</h1>
+    <p>Convergence Analytics is a private tool run by [[BUSINESS_NAME]]. It copies a client's Instagram post statistics into that client's own coaching dashboard, so the client and their coach can see which videos work and why.</p>
+    <h2>How it works</h2>
+    <ol>
+      <li>Your coach sends you a personal connect link.</li>
+      <li>You approve read-only access to one Instagram account on Meta's own screen.</li>
+      <li>This page shows a one-time code, which you send to your coach to finish the connection.</li>
+    </ol>
+    <h2>What it reads</h2>
+    <ul>
+      <li>Your public profile name and your posts (caption, date, link, video).</li>
+      <li>The statistics for those posts: views, reach, likes, comments, saves, shares and watch time.</li>
+    </ul>
+    <h2>What it never does</h2>
+    <ul>
+      <li>It cannot post, comment, message or change anything on your account.</li>
+      <li>It does not read your messages, and it never sees your password.</li>
+      <li>Your data is not sold and is not used for advertising.</li>
+    </ul>
+    <p class="note">This page only shows a code after you approve access. If you were sent here by your coach, open the link they gave you to start.</p>
   </section>
+
+  <nav class="foot" aria-label="Legal">
+    <a href="privacy.html">Privacy policy</a>
+    <a href="data-deletion.html">Delete my data</a>
+    <a href="mailto:[[CONTACT_EMAIL]]">Contact</a>
+  </nav>
 </main>
 <script>
 (function () {
